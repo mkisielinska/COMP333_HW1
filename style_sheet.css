@@ -1,0 +1,111 @@
+/*
+    COMP 333: Software Engineering
+    Sebastian Zimmeck (szimmeck@wesleyan.edu)
+*/
+
+/*
+    It is a good idea to include all styles in a separate Style Sheet such as
+    this one.
+
+    Start styling with the general elements of your page, e.g., body style,
+    pargraph style, ... . Then, you can modify those styles for individual
+    instances using class tags, id tags, ... .
+*/
+
+/*
+    You can import a font from Google at https://fonts.google.com/
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+/*
+    The imported font should be applied to all body text.
+*/
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    /* padding: 0; */
+    margin:0 auto;
+    background-color: white;
+    /* width:100%; */
+}
+
+/*
+    All text in paragraphs should be black.
+*/
+p {
+    color:black;
+    font-size: 20px;
+}
+
+nav {
+  position: fixed;
+  top:0;
+  z-index:1;
+  background-color: #F0F8FF;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
+nav a {padding: 30px;
+        text-color: white;
+}
+
+section {
+  width:100%;
+}
+
+.background {
+    background: url('background1.png');
+    width:100%;
+    min-height: 1280px;
+    background-repeat: no-repeat;
+}
+
+.flex-container {
+    display: flex;
+    direction:row;
+    flex-wrap: nowrap;
+    background-color: white;
+    margin-top: 25px;
+  }
+
+.flex-container > div {
+    display:flex;
+    direction:row;
+    background-color: #F0F8FF;
+    direction:row;
+    width: 100%;
+    justify-content:center;
+    line-height: 60vh;
+    font-size: 20pt;
+}
+
+/* .even-flex > *{
+  flex-basis:100%
+} */
+
+
+.flex-text-item > div {
+  display:flex;
+  font-size:30pt;
+  width:100%;
+  border:black;
+
+}
+
+.flex-image-item > div {
+  display:flex;
+  width:50%;
+  height:auto;
+}
+
+
+#image-in-div{
+  width:100px;
+  height:auto;
+  min-height:10vh;
+}
+
+#text-in-div{
+  font-color:blue;
+}
