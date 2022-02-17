@@ -70,6 +70,9 @@ section {
     background-color: #F0F8FF;
     margin-top: 25px;
     flex:1;
+    padding:0pt;
+    margin-left: 0pt;
+    margin-right: 0pt;
   }
 
 .flex-container > div {
