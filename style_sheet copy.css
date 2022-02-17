@@ -67,7 +67,7 @@ section {
 .flex-container {
     display: flex;
     direction:row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     background-color: white;
     margin-top: 25px;
   }
@@ -110,4 +110,11 @@ section {
 
 #text-in-div{
   font-color:blue;
+}
+
+#banner-div {
+  width:100%;
+  background-color: #C9D8DA;
+  font-size:12pt;
+  text-align:center;
 }
