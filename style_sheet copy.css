@@ -58,17 +58,11 @@ section {
   justify-content:center;
 }
 
-/* .background {
-    background: url('background1.png');
-    width:100%;
-    min-height: 1280px;
-    background-repeat: no-repeat;
-} */
 
-.adjust-line-height{
+/* .adjust-line-height{
   margin:0 auto;
   width:100%;
-}
+} */
 
 .flex-container {
     display: flex;
@@ -181,12 +175,18 @@ section {
     /* height:auto; */
     height:auto;
     margin:0 auto;
-    text-align: center;
+    text-align: left;
     /* line-height: 75px; */
     font-size: 20px;
     padding:30px;
     padding-top:10px;
 
+}
+
+.centered-heading{
+  text-align:center;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 #playlist {
