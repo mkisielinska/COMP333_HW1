@@ -21,10 +21,11 @@
     The imported font should be applied to all body text.
 */
 body {
-    font-family: 'Noto Sans SC', sans-serif;
-    padding: 0;
+    font-family: 'Tahoma', sans-serif;
+    padding-top: 30px;
     margin:0 auto;
     background-color: white;
+    /* text-align: center; */
     /* width:100%; */
 }
 
@@ -68,7 +69,7 @@ section {
     direction:row;
     flex-wrap: wrap;
     background-color: #F0F8FF;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     flex:1;
     padding:0pt;
     margin-left: 0pt;
@@ -81,7 +82,7 @@ section {
     flex-wrap:wrap;
     background-color: #F0F8FF;
     justify-content:center;
-    width: 100%;
+    width: 100% auto;
     margin: 0px;
     line-height: 80vh;
     font-size: 20pt;
@@ -89,14 +90,10 @@ section {
     align-self:start;
 }
 
-/* .even-flex > *{
-  flex-basis:100%
-} */
-
 
 .flex-text-item > div {
   font-size:30pt;
-  /* width:100%; */
+  width:100%;
   border: 1pt black;
   text-align: center;
 }
@@ -108,19 +105,93 @@ section {
 } */
 
 
-#image-in-div{
+/* #image-in-div{
   width:100px;
   height:auto;
   min-height:10vh;
-}
+} */
 
-#text-in-div{
+/* #text-in-div{
   font-color:blue;
-}
+} */
 
 #banner-div {
   width:100%;
   background-color: #C9D8DA;
   font-size:12pt;
   text-align:center;
+}
+
+#block-text{
+  color:black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
+}
+}
+
+#h1a {
+  color:blue;
+  text-align:center;
+  font-weight:normal;
+  font-size: 12pt;
+  line-height: 50vh;
+}
+
+
+/* .flex-container-pricing > div { */
+    /* display:flex; */
+    /* direction:row; */
+    /* flex-wrap: wrap; */
+    /* background-color: #F0F8FF; */
+    /* justify-content:center; */
+    /* width: 100%; */
+    /* margin: 0px; */
+    /* line-height: 80vh; */
+    /* font-size: 20pt; */
+    /* flex:1; */
+    /* align-self:start; */
+/* } */
+
+
+/* .flex-text-item-pricing > div { */
+  /* font-size:30pt; */
+  /* width:100%; */
+  /* border: 1pt black; */
+  /* text-align: center; */
+/* } */
+
+/* .flex-container-pricing > div h1 {
+  font-size: 30px;
+  font-weight: bold;
+  flex: inherit;
+} */
+
+/* .flex-container-pricing > div p { */
+  /* margin: 0px 0px 0px 0px; */
+  /* flex: 1 1 100%; */
+/* } */
+
+
+.flex-container-pricing {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    /* max-width:1200px; */
+    width:100%;
+  }
+
+.flex-container-pricing > div {
+    background-color:  #F0F8FF;
+    width:400px;
+    /* display:inline-block; */
+    /* flex:0 0 1; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap:wrap; */
+    /* height:auto; */
+    height:auto;
+    margin: auto;
+    text-align: center;
+    /* line-height: 75px; */
+    font-size: 20px;
 }
