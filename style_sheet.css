@@ -97,6 +97,7 @@ section {
 #flex-box-text{
   padding-top:40vh;
   padding-left:20px;
+  padding-right:20px;
 }
 
 .flex-text-item > div {
