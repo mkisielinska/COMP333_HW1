@@ -120,6 +120,8 @@ section {
   background-color: #C9D8DA;
   font-size:12pt;
   text-align:center;
+  padding:0;
+  margin:0;
   /* padding-bottom: 10px; */
 }
 
