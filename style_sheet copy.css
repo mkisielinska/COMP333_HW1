@@ -37,6 +37,12 @@ p { color:black;
     font-size: 20px;
   }
 
+.adjust-line-height{
+  line-height: 1em;
+}
+
+
+
 nav {
   position: fixed;
   top:0;
