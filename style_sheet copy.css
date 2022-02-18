@@ -37,12 +37,6 @@ p { color:black;
     font-size: 20px;
   }
 
-.adjust-line-height{
-  line-height: 1em;
-}
-
-
-
 nav {
   position: fixed;
   top:0;
@@ -71,6 +65,11 @@ section {
     background-repeat: no-repeat;
 } */
 
+.adjust-line-height{
+  margin:0 auto;
+  width:100%;
+}
+
 .flex-container {
     display: flex;
     direction:row;
@@ -94,11 +93,16 @@ section {
     justify-content:center;
     width: 100%;
     max-width:100%;
-    margin: 0px;
-    line-height: 80vh;
+    margin: 0px auto;
+    padding-top: 10vh;
     font-size: 20pt;
     flex:1;
     align-self:start;
+}
+
+#flex-box-text{
+  padding-top:40vh;
+  padding-left:20px;
 }
 
 .flex-text-item > div {
